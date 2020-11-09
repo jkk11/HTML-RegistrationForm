@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration!</title>
+</head>
+
+<body>
+    <form action="/registrationValidation">
+        <h1>Race Registration!</h1>
+        <p>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required>
+        </p>
+        <p>Select a Race:</p>
+        <div>
+            <p>
+                <input type="radio" name="typeOfRun" value="funRun5k" id="funRun5k">
+                <label for="funRun5k">Fun Run 5k</label>
+            </p>
+            <p>
+                <input type="radio" name="typeOfRun" value="halfMarathon" id="halfMarathon">
+                <label for="halfMarathon">Half Marathon</label>
+            </p>
+            <p>
+                <input type="radio" name="typeOfRun" value="fullMarathon" id="fullMarathon">
+                <label for="fullMarathon">Full Marathon</label>
+            </p>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+            <p>
+                <label for="ageSelect">Select your age:</label>
+                <select name="ageSelected" id="ageSelect">
+                    <option value="Under 18">Under 18</option>
+                    <option value="18-30">18-30</option>
+                    <option value="30-60">30-60</option>
+                    <option value="60+">60+</option>
+                </select>
+            </p>
+        </div>
+        <p>
+            <button>Register</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
+
+<!-- 9:18 -->
